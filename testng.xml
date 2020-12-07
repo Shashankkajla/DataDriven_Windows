@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenProj Automation Application Test">
+ 
+ 
+ <test name="DataDrivenProj Test"> 
+  <parameter name = "email" value = "shashank.kajla@hcl.com" />
+  <parameter name = "pwd"   value = "Kajla@1234" />
+  <parameter name = "repwd" value = "test@12345" />
+  
+    <classes>
+      <class name="com.qa.test.SignUpPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
